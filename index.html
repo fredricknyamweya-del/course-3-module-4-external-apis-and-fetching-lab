@@ -2,16 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Weather Alerts App</title>
-  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Weather Alerts App</h1>
-  <input type="text" id="state-input" placeholder="Enter state abbreviation">
-  <button id="fetch-alerts">Get Weather Alerts</button>
+
+  <input id="state-input" type="text" placeholder="Enter state code (e.g. CA)" />
+  <button id="fetch-button">Fetch Alerts</button>
+
   <div id="alerts-display"></div>
+
   <div id="error-message" class="hidden"></div>
-  <script src="./index.js"></script>
+
+  <script src="script.js"></script>
 </body>
 </html>
